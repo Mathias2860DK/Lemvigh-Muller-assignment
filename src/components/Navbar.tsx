@@ -1,7 +1,7 @@
 // Navbar.tsx
 import React, { useState } from 'react';
 import './Navbar.css';
-import Logo from '../Lemvigh-Müller_Logo.png'
+import Logo from '../Lemvigh-Muller_Logo.png'
 
 const Navbar: React.FC = () => {
 
