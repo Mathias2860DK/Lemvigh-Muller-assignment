@@ -1,46 +1,64 @@
-# Getting Started with Create React App
+# 10 Random Hacker News Stories
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A web application that fetches and displays 10 random top stories from Hacker News.
 
-## Available Scripts
+## Tasks
 
-In the project directory, you can run:
+- Create a webpage that displays 10 random Hacker News using Hacker News API
+- List stories in ascending order based on the stories’ scores
 
-### `npm start`
+## UI Elements
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- Story title
+- Story URL
+- Story timestamp
+- Story score
+- Author id
+- Author karma score
+- A static dummy image (not from the API)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Requirements
 
-### `npm test`
+- UI is responsive
+- CSS compiled with a preprocessor
+- No UI library or CSS framework used
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Bonus Points
 
-### `npm run build`
+- Visual eye-candy and user experience enhancements
+- Use of a modern Javascript framework
+- Use of Typescript
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Data Fetching Flow
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Fetch 10 random top story IDs.
+2. For each of these IDs, fetch the complete story.
+3. Once obtained, fetch the author of each story.
+4. Combine the story data with its respective author data.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Running the Project Locally
 
-### `npm run eject`
+### Prerequisites
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- Install [Node.js](https://nodejs.org/)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Setup & Running
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+1. **Clone the Repository**:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+git clone https://github.com/Mathias2860DK/Lemvigh-Muller-assignment.git
 
-## Learn More
+2. **Navigate to the Project Directory**:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+cd Lemvigh-Muller-assignment
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+3. **Install Dependencies**:
+
+npm install
+
+4. **Run the Application**:
+
+npm start
+
+5. **Access in Browser**:
+Open your browser and visit [http://localhost:3000/](http://localhost:3000/)
