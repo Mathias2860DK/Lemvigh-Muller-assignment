@@ -3,7 +3,9 @@
 A web application that fetches and displays 10 random top stories from Hacker News.
 Live site: https://bespoke-melba-efce20.netlify.app/
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/By0Ksz9jKMI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+[![Watch the video](https://img.youtube.com/vi/By0Ksz9jKMI/maxresdefault.jpg)](https://youtu.be/By0Ksz9jKMI)
+
+
 
 ## Tasks
 
