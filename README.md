@@ -1,6 +1,7 @@
 # 10 Random Hacker News Stories
 
 A web application that fetches and displays 10 random top stories from Hacker News.
+Live site: https://bespoke-melba-efce20.netlify.app/
 
 ## Tasks
 
